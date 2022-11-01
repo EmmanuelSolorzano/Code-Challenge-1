@@ -44,8 +44,7 @@ int main(){
         array[i] = aux;
     }
     
-    for (int i = 0; i < step; i++)
-    {
+    for (int i = 0; i < step; i++){
         array[i].print();
     }
     return 0;
