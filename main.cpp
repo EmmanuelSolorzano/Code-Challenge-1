@@ -6,9 +6,20 @@
 using namespace std;
 
 int main(){
-    Point p1(1,1);
-    Point p2(1,10);
+    float inputX, inputY;
 
+    cout<<"Introduzca las cordenadas del PRIMER punto en X:"<<endl;
+    cin>>inputX;
+    cout<<"Introduzca las cordenadas del PRIMER punto en Y:"<<endl;
+    cin>>inputY;
+    Point p1(inputX,inputY);
+
+    cout<<"Introduzca las cordenadas del SEGUNDO punto en X:"<<endl;
+    cin>>inputX;
+    cout<<"Introduzca las cordenadas del SEGUNDO punto en Y:"<<endl;
+    cin>>inputY;
+    Point p2(inputX,inputY);
+    
     float dx = p2.x - p1.x;
     float dy = p2.y - p1.y;
 
